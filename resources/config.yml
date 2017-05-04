@@ -1,0 +1,33 @@
+---
+# Mensajes
+help: '[§bxAomSKR§f] §dรายชื่อ §6เอฟเฟค: '
+helpList: '§a{particle}: §d{price}'
+particleOff: '[§bxAomSKR§f] §eคุณได้ปิดเอฟเฟคเรียบร้อยแล้ว!'
+particleNotExist: '[§bxAomSKR§f] §cเอฟเฟคนี้ไม่มี! '
+permNotExist: '[§bxAomSKR§f] §eยศของคุณไม่สามารถใช้เอฟเฟคนี้ได้'
+notEnoughMoney: '[§bxAomSKR§f] §cคุณมีจำนวนเงินไม่พอในการซื้อ'
+needToBuy: '[§bxAomSKR§f] §eคุณต้องการที่จะซื้อ §d{particle}'
+buy: '[§bxAomSKR§f] §aคุณได้ซื้อเอฟเฟค §d{particle} §aมาเรียบร้อยแล้ว'
+enabled: '[§bxAomSKR§f] §aคุณเปิดเอฟเฟค §d{particle} §aเรียบร้อยแล้ว!'
+save: '[§bxAomSKR§f] §aบันทึกเอฟเฟค'
+bought: '§a | ซื้อแล้ว  | /p <ชื่อเอฟเฟค>'
+notBought: '§c | ยังไม่ได้ซื้อ §b| /p buy {particle}'
+dontHavePermissions: '§c | ยศคุณไม่ถึงในการใช้คำสั่ง นี้|'
+free: '§aฟรี!'
+price: '§7{price}'
+
+# Como generar una particula
+# dividido por el número de segundos 20, obtener el valor para el período
+period: 0.05 # 20 de partículas por segundo
+
+# particula
+# nombre: precio
+# cambia los precios a tu gusto ya que están caros 
+particles:
+  lava: 10000
+  water: 10000
+  happy: 10000
+  angry: 10000
+  bubble: 10000
+  enchant: 10000
+...
